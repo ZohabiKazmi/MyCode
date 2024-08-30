@@ -126,9 +126,9 @@ button {
     transition: background 0.5s;
 }
 
-button:hover {
+/* button:hover {
     background: #ff4500;
-}
+} */
 
 .dots {
     position: absolute;
