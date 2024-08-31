@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './NavBar.css'; 
+import { FaFacebook, FaSquareXTwitter, FaYoutube, FaEnvelope } from 'react-icons/fa6';
 
 import logo from '../../assets/uajk-logo.png';
 
@@ -61,6 +62,12 @@ const NavBar = () => {
               <li>ORIC Office</li><hr />
               <li>Journals</li><hr />
               <li>Almuni</li><hr />
+              <li><div>
+                <FaFacebook/>
+                <FaSquareXTwitter/>
+                <FaYoutube/>
+                <FaEnvelope/>
+                </div></li>
             </ul>
           </div>
         )}

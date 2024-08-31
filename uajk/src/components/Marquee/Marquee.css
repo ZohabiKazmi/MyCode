@@ -1,0 +1,42 @@
+.marquee-container {
+    overflow: hidden; /* Hide overflow to ensure a seamless scrolling effect */
+    width: 100%; /* Full width */
+    position: relative;
+    background: rgba(255, 255, 255, 0.23);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .marquee {
+    display: flex; /* Flex to line up content side by side */
+    animation: marquee 20s linear infinite; /* Controls the duration and repetition */
+    will-change: transform; /* Improve performance */
+  }
+  
+  .marquee-content {
+    display: flex; /* Display texts side by side */
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+  
+  .marquee-content span {
+    padding: 1rem 3rem; /* Adjust padding for consistent flow */
+    font-size: 1.3rem;
+  }
+  
+  /* Keyframes for scrolling animation */
+  @keyframes marquee {
+    0% {
+      transform: translateX(0); /* Start at initial position */
+    }
+    100% {
+      transform: translateX(-50%); /* Translate half-width for seamless looping */
+    }
+  }
+  
+  /* Pause the scrolling animation on hover */
+  .marquee:hover {
+    animation-play-state: paused; /* Pause animation when hovered */
+  }
+  
