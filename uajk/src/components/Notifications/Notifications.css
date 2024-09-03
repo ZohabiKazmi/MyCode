@@ -61,7 +61,7 @@
 }
 
 .z_main_title{
-    min-height: calc(20% - 1rem);
+    min-height: calc(20% - 2rem);
 }
 
 .z_main_title h2 {
@@ -73,7 +73,7 @@
 }
 
 .z_button-div {
-    min-height: calc(20% - 1rem);
+    min-height: calc(20% - 2rem);
     display: flex;
     align-items: center;
     padding: 1rem;
