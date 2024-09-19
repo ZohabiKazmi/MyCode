@@ -1,6 +1,5 @@
 import React from 'react'
 import './App.css'
-// import Hero from './components/HeroSlider/HeroSlider'
 import HeroSlider2 from './components/HeroSlider2/HeroSlider2'
 import NavBar from './components/Navbar/Navbar'
 import Marquee from './components/Marquee/Marquee'
@@ -19,7 +18,6 @@ const App = () => {
     <NavBar />
     <HeroSlider2 />
     <Marquee />
-    {/* <Hero /> */}
     <div className='video-animation'>
     <EventCards />
     <StatsCounter />
