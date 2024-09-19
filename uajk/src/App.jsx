@@ -8,6 +8,9 @@ import StatsCounter from './components/StatsCounter/StatsCounter'
 import EventCards from './components/Events/EventCards'
 import Notifications from './components/Notifications/Notifications'
 import CampusesSection from './components/CampusesSection/CampusesSection'
+import Introduction from './components/Introduction/Introduction'
+import Footer from './components/Footer/Footer'
+import ScrollingVideo from './components/ScrollingVideo/ScrollingVideo'
 
 
 const App = () => {
@@ -17,10 +20,17 @@ const App = () => {
     <HeroSlider2 />
     <Marquee />
     {/* <Hero /> */}
+    <div className='video-animation'>
     <EventCards />
     <StatsCounter />
     <Notifications/>
     <CampusesSection />
+    </div>
+    <div className="video">
+    <ScrollingVideo/>
+    </div>
+    <Introduction/>
+    <Footer/>
     </>
   )
 }

@@ -62,8 +62,6 @@ const CampusesSection = () => {
               <div>
                 <h3>Explore our Campuses</h3>
                 <p>Discover the diverse campuses of our university, each offering unique facilities and experiences. Discover the diverse campuses of our university, each offering unique facilities and experiences. Discover the diverse campuses of our university, each offering unique facilities and experiences. Discover the diverse campuses of our university, each offering unique facilities and experiences. Discover the diverse campuses of our university, each offering unique facilities and experiences. </p>
-                
-                <p>Discover the diverse campuses of our university, each offering unique facilities and experiences. Discover the diverse campuses of our university, each offering unique facilities and experiences. Discover the diverse campuses of our university, each offering unique facilities and experiences. Discover the diverse campuses of our university, each offering unique facilities and experiences. Discover the diverse campuses of our university, each offering unique facilities and experiences. </p>
               </div>
               {/* <button className="view-more-button">View More</button> */}
             </div>

@@ -43,7 +43,7 @@ const NavBar = () => {
           ☰
         </div>
 
-        {/* Slide-in Menu */}
+        {/* Secondary Menu */}
         {(menuOpen || closing) && (
           <div className={`side-menu ${closing ? 'slide-out' : 'slide-in'}`}>
             <div className="close-icon" onClick={handleMenuToggle}>
@@ -62,7 +62,7 @@ const NavBar = () => {
               <li>ORIC Office</li><hr />
               <li>Journals</li><hr />
               <li>Almuni</li><hr />
-              <li><div>
+              <li><div className='header_social_icon'>
                 <FaFacebook/>
                 <FaSquareXTwitter/>
                 <FaYoutube/>
